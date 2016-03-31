@@ -173,7 +173,7 @@ angular.module('genome.self', [])
         {
           element: document.querySelector('#helix-path-7'),
           intro: "Use these buttons if you want to use this walkthrough or sign out.",
-          position: 'left'
+          position: 'bottom'
         }
       ],
       showStepNumbers: false,
