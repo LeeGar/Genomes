@@ -43,7 +43,7 @@ def home():
     return render_template('landing.html', auth_url=auth_url)
 
 
-@app.route('/get_info/')
+@app.route('/currentuser_info/')
 def getUser():
     response = make_response(render_template('index.html'))
     return response

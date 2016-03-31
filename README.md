@@ -81,7 +81,7 @@ Database in Postgres, using SQLAlchemy
 |Log-in|/receive_code/|   |
 |Log-in Demo|/demo/|   |
 |Log-out|/logout|   |
-|Get User Info|/get_info/|userObj|
+|Get User Info|/get_info/|{userObj}|
 |Get User Relatives|/api/relatives/|{RelativesObj}|
 |Get/Post SNP Data|/api/getsnps|{SnpObj}|
 

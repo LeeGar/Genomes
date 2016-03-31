@@ -29,7 +29,7 @@ describe('SelfController', function(){
     $cookies = $injector.get('$cookies');
     $cookies.user_profile_id = 'demo_id';
     $controller = $injector.get('$controller');
-    $httpBackend.whenPOST('/api/getsnps').respond(200, '')
+    $httpBackend.whenPOST('/api/snp_data').respond(200, '')
 
     createController = function () {
       return $controller('SelfController', {
